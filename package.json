@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-source-published-google-sheets",
+  "version": "1.0.0",
+  "main": "dist/gatsby-node.js",
+  "author": "Nathan Smith <nathan@nathansmith.io>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^10.10.1",
+    "@types/node-fetch": "^2.1.2",
+    "node-fetch": "^2.2.0",
+    "prettier": "^1.14.2",
+    "typescript": "^3.0.3"
+  }
+}
