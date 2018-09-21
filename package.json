@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-published-google-sheets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nathan Smith <nathan@nathansmith.io>",
   "license": "MIT",
   "scripts": {
