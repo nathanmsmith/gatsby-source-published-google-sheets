@@ -3,8 +3,19 @@
   "version": "0.0.0-development",
   "author": "Nathan Smith <nathan@nathansmith.io>",
   "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "google",
+    "google-sheets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathunsmitty/gatsby-source-published-google-sheets.git"
+  },
   "scripts": {
     "build": "tsc",
+    "commit": "yarn git-cz",
     "prepublish": "yarn build",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
@@ -15,13 +26,17 @@
   "devDependencies": {
     "@types/node": "10.12.2",
     "@types/node-fetch": "2.1.2",
+    "commitizen": "^3.0.4",
+    "cz-conventional-changelog": "^2.1.0",
     "prettier": "1.14.3",
-    "typescript": "3.1.6",
+    "semantic-release": "15.10.7",
     "travis-deploy-once": "5.0.9",
-    "semantic-release": "15.10.7"
+    "semantic-release": "15.10.7",
+    "typescript": "3.1.6"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nathunsmitty/gatsby-source-published-google-sheets.git"
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
