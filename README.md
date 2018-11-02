@@ -1,6 +1,7 @@
 # gatsby-source-published-google-sheets
 
 [![npm](https://img.shields.io/npm/v/gatsby-source-published-google-sheets.svg)](https://www.npmjs.com/package/gatsby-source-published-google-sheets)
+[![Build Status](https://travis-ci.com/nathunsmitty/gatsby-source-published-google-sheets.svg?branch=master)](https://travis-ci.com/nathunsmitty/gatsby-source-published-google-sheets)
 
 Gatsby plugin that pulls data from a published Google sheet.
 
