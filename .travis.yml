@@ -4,6 +4,8 @@ cache:
     - ~/.npm
 notifications:
   email: false
+node_js:
+  - 'node'
 script:
   - yarn build
 after_success:
