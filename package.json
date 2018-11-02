@@ -10,15 +10,15 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "node-fetch": "^2.2.0"
+    "node-fetch": "2.2.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.2",
-    "@types/node-fetch": "^2.1.2",
-    "prettier": "^1.14.3",
-    "typescript": "^3.1.5",
-    "travis-deploy-once": "^5.0.9",
-    "semantic-release": "^15.10.6"
+    "@types/node": "10.12.2",
+    "@types/node-fetch": "2.1.2",
+    "prettier": "1.14.3",
+    "typescript": "3.1.6",
+    "travis-deploy-once": "5.0.9",
+    "semantic-release": "15.10.6"
   },
   "repository": {
     "type": "git",
