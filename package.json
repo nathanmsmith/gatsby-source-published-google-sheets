@@ -29,7 +29,7 @@
     "node-fetch": "2.2.0"
   },
   "devDependencies": {
-    "@types/node": "10.12.2",
+    "@types/node": "10.12.18",
     "@types/node-fetch": "2.1.2",
     "commitizen": "^3.0.4",
     "cz-conventional-changelog": "^2.1.0",
