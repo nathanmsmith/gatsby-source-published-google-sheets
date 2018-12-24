@@ -6,10 +6,15 @@ notifications:
   email: false
 node_js:
   - 'node'
+  - 'lts/*'
 script:
   - yarn build
-after_success:
-  - yarn travis-deploy-once "yarn semantic-release"
 branches:
   only:
     - master
+jobs:
+  include:
+    - stage: release
+      node_js: lts/*
+      script:
+        - yarn semantic-release
