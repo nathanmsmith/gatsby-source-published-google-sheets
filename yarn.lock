@@ -105,10 +105,10 @@
     into-stream "^4.0.0"
     lodash "^4.17.4"
 
-"@types/node-fetch@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.1.2.tgz#8c5da14d70321e4c4ecd5db668e3f93cf6c7399f"
-  integrity sha512-XroxUzLpKuL+CVkQqXlffRkEPi4Gh3Oui/mWyS7ztKiyqVxiU+h3imCW5I2NQmde5jK+3q++36/Q96cyRWsweg==
+"@types/node-fetch@2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.1.4.tgz#093d1beae11541aef25999d70aa09286fd025b1a"
+  integrity sha512-tR1ekaXUGpmzOcDXWU9BW73YfA2/VW1DF1FH+wlJ82BbCSnWTbdX+JkqWQXWKIGsFPnPsYadbXfNgz28g+ccWg==
   dependencies:
     "@types/node" "*"
 
@@ -117,10 +117,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.10.1.tgz#d5c96ca246a418404914d180b7fdd625ad18eca6"
   integrity sha512-nzsx28VwfaIykfzMAG9TB3jxF5Nn+1/WMKnmVZc8TsB+LMIVvwUscVn7PAq+LFaY5ng5u4jp5mRROSswo76PPA==
 
-"@types/node@10.12.2":
-  version "10.12.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.2.tgz#d77f9faa027cadad9c912cd47f4f8b07b0fb0864"
-  integrity sha512-53ElVDSnZeFUUFIYzI8WLQ25IhWzb6vbddNp8UHlXQyU0ET2RhV5zg0NfubzU7iNMh5bBXb0htCzfvrSVNgzaQ==
+"@types/node@10.12.18":
+  version "10.12.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
+  integrity sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==
 
 JSONStream@^1.0.4, JSONStream@^1.3.4:
   version "1.3.5"
@@ -155,6 +155,14 @@ aggregate-error@^1.0.0:
   integrity sha1-iINE2tAiCnLjr1CQYRf0h3GSX6w=
   dependencies:
     clean-stack "^1.0.0"
+    indent-string "^3.0.0"
+
+aggregate-error@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-2.0.0.tgz#65bd82beba40097eacb2f1077a5b55c593b18abc"
+  integrity sha512-xA1VQPApQdDehIIpS3gBFkMGDRb9pDYwZPVUOoX8A0lU3GB0mjiACqsa9ByBurU53erhjamf5I4VNRitCfXhjg==
+  dependencies:
+    clean-stack "^2.0.0"
     indent-string "^3.0.0"
 
 ajv@^5.3.0:
@@ -640,6 +648,11 @@ clean-stack@^1.0.0:
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-1.3.0.tgz#9e821501ae979986c46b1d66d2d432db2fd4ae31"
   integrity sha1-noIVAa6XmYbEax1m0tQy2y/UrjE=
 
+clean-stack@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.0.0.tgz#301bfa9e8dd2d3d984c0e542f7aa67b996f63e0a"
+  integrity sha512-VEoL9Qh7I8s8iHnV53DaeWSt8NJ0g3khMfK6NiCPB7H657juhro+cSw2O88uo3bo0c0X5usamtXk0/Of0wXa5A==
+
 cli-boxes@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/cli-boxes/-/cli-boxes-1.0.0.tgz#4fa917c3e59c94a004cd61f8ee509da651687143"
@@ -764,10 +777,10 @@ commander@~2.17.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
   integrity sha512-wPMUt6FnH2yzG95SA6mzjQOEKUU3aLaDEmzs1ti+1E9h+CsrZghRlqEM/EJ4KscsQVG8uNN4uVreUeT8+drlgg==
 
-commitizen@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-3.0.4.tgz#557904e15cc0641d5b7cdcba2f3e74ef3b693d79"
-  integrity sha512-djR5F7RBsGALyUEm/B1H/85nsN4L1F5DhWN+9/efSwqHDSyhw2MK6MF2VRuD26PUqGkQbcUlYO61btkTWjcjVw==
+commitizen@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-3.0.5.tgz#607e07a6d3f2aa201b91a51607dc4d337c84a0ea"
+  integrity sha512-WB9sz7qudArOsW1ninU8YGLNoXLQ5lJBZf538iQ7i96SXAkqVMZdmPtSyN4WFPM5PjQR7rWxDa+hzfGIJfrXUg==
   dependencies:
     cachedir "2.1.0"
     cz-conventional-changelog "2.1.0"
@@ -3000,7 +3013,12 @@ node-fetch-npm@^2.0.2:
     json-parse-better-errors "^1.0.0"
     safe-buffer "^5.1.1"
 
-node-fetch@2.2.0, node-fetch@^2.1.1:
+node-fetch@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
+  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+
+node-fetch@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.2.0.tgz#4ee79bde909262f9775f731e3656d0db55ced5b5"
   integrity sha512-OayFWziIxiHY8bCUyLX6sTpDH8Jsbp4FfYd1j1f7vZyfgkcOnAyM4oQR16f8a0s7Gl/viMGRey8eScYk4V4EZA==
@@ -3671,10 +3689,10 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-prettier@1.14.3:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.14.3.tgz#90238dd4c0684b7edce5f83b0fb7328e48bd0895"
-  integrity sha512-qZDVnCrnpsRJJq5nSsiHCE3BYMED2OtsI+cmzIzF1QIfqm5ALf8tEJcO27zV1gKNKRPdhjO0dNWnrzssDQ1tFg==
+prettier@1.15.3:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
+  integrity sha512-gAU9AGAPMaKb3NNSUUuhhFAS7SCO4ALTN4nRIn6PJ075Qd28Yn2Ig2ahEJWdJwJmlEBTUfC7mMUSFy8MwsOCfg==
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -4134,17 +4152,17 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release@15.13.1:
-  version "15.13.1"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.13.1.tgz#18541032504aa0b443d011083685c9b42eb38c9f"
-  integrity sha512-bkrfQ10BhbJRMeq/Ih9DZ9FO4ffDwFYsRR134JP9JvQSf8GVX4sg3SnFFd7Q10C6pKwjKqMZ4+ZNB5uQYMLPEg==
+semantic-release@15.13.2:
+  version "15.13.2"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.13.2.tgz#a05f1f2ee1a572aca1cde78ef42d15b280b36318"
+  integrity sha512-uUQDfD4X+b48x7rYdTYcWrprRpCmo2gNpiIWn2XnpieOrB3/rRrd4Kn5ekvCnqUgMffN0VWBDqDGp5WxoSfweA==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/error" "^2.2.0"
     "@semantic-release/github" "^5.1.0"
     "@semantic-release/npm" "^5.0.5"
     "@semantic-release/release-notes-generator" "^7.1.2"
-    aggregate-error "^1.0.0"
+    aggregate-error "^2.0.0"
     cosmiconfig "^5.0.1"
     debug "^4.0.0"
     env-ci "^3.0.0"
