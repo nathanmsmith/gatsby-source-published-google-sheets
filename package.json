@@ -27,13 +27,13 @@
     "node-fetch": "2.3.0"
   },
   "devDependencies": {
-    "@types/node": "10.12.18",
-    "@types/node-fetch": "2.1.4",
-    "commitizen": "3.0.5",
+    "@types/node": "10.14.1",
+    "@types/node-fetch": "2.1.6",
+    "commitizen": "3.0.7",
     "cz-conventional-changelog": "2.1.0",
-    "prettier": "1.15.3",
-    "semantic-release": "15.13.2",
-    "typescript": "3.2.2"
+    "prettier": "1.16.4",
+    "semantic-release": "15.13.3",
+    "typescript": "3.3.3333"
   },
   "config": {
     "commitizen": {
